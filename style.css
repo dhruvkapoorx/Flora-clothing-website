@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Noto+Sans:wght@500&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+.atom{
+    height: 40%;
+
+}
+.atom h5{
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-family: 'Aboreto', cursive;
+    /* text-shadow: 2px 2px #1918184a; */
+}
+.atom p{
+    font-size: 125%;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.sec1{
+    text-align: center;
+}
+
+.social-links{
+    font-size: 33px;
+    letter-spacing: 10px;
+}
+.col{
+    color: black;
+}
+.container h1{
+       text-align: center;
+    font-size: 49px;
+    margin-top: 49px;
+}
+.nav-link{
+    text-align: center;
+}
+  .ctext{
+        font-size: 47px;
+        font-family: 'Aboreto', cursive;
+        height: 17rem;
+  }
+  .video-slide{
+    width: 91em;
+   
+  }
+  .navbar-brand{
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+  }
+  .carousel-fade{
+    width: 36em;
+  display: flex;
+  margin: auto;
+  }
+
+  @media (max-width: 900px) {
+    .video-slide {
+        width: 44em;
+    }
+    #carouselExampleCaptions{
+        width: 44em;
+          
+  }
+  #carouselExampleFade{
+    width: 31em;
+    display: flex;
+    margin-left: 105px;
+  }
+}
